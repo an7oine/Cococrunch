@@ -1,9 +1,5 @@
 //
-//  main.m
-//  Cococrunch
-//
-//  Created by Antti Hautaniemi on 11.5.2015.
-//  Copyright (c) 2015 mcl. All rights reserved.
+//  2015 Magna cum laude. PD
 //
 
 #import <UIKit/UIKit.h>

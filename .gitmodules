@@ -1,0 +1,3 @@
+[submodule "Cocopops"]
+	path = Cocopops
+	url = https://github.com/an7oine/Cocopops.git
