@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E486AB701B03286B00F0DC7D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E486AB6F1B03286B00F0DC7D /* Default-568h@2x.png */; };
 		E48C9A941B00F1B400DD4DA3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E48C9A931B00F1B400DD4DA3 /* main.m */; };
 		E48C9A971B00F1B400DD4DA3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E48C9A961B00F1B400DD4DA3 /* AppDelegate.m */; };
 		E48C9A9D1B00F1B400DD4DA3 /* PopoverCrunchingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E48C9A9C1B00F1B400DD4DA3 /* PopoverCrunchingVC.m */; };
@@ -46,6 +47,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E486AB6F1B03286B00F0DC7D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
 		E48C9A8E1B00F1B400DD4DA3 /* Cococrunch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cococrunch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E48C9A921B00F1B400DD4DA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E48C9A931B00F1B400DD4DA3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -156,6 +158,7 @@
 				E48C9A9B1B00F1B400DD4DA3 /* PopoverCrunchingVC.h */,
 				E48C9A9C1B00F1B400DD4DA3 /* PopoverCrunchingVC.m */,
 				E48C9A9E1B00F1B400DD4DA3 /* Main.storyboard */,
+				E486AB6F1B03286B00F0DC7D /* Default-568h@2x.png */,
 				E48C9A921B00F1B400DD4DA3 /* Info.plist */,
 				E48C9A931B00F1B400DD4DA3 /* main.m */,
 			);
@@ -315,6 +318,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E48C9AA01B00F1B400DD4DA3 /* Main.storyboard in Resources */,
+				E486AB701B03286B00F0DC7D /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,7 +398,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -413,7 +417,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -438,7 +442,7 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -451,7 +455,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -506,6 +510,7 @@
 				E48C9AB61B00F1B500DD4DA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
