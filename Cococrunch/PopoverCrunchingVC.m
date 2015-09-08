@@ -10,6 +10,9 @@
 @end
 
 @implementation PopoverCrunchingVC
+{
+	UIPopoverController *_popoverController;
+}
 
 - (void)viewDidLoad
 {
@@ -29,6 +32,9 @@
 
 	CGRect frame = CGRectInset((CGRect){ [sender locationInView:self.view], CGSizeZero }, -1.0f, -1.0f);
 	[popoverC presentPopoverFromRect:frame inView:self.view permittedArrowDirections:UIPopoverArrowDirectionAny animated:YES];
+
+	// we need to retain the popover controller for as long it's visible
+	_popoverController = popoverC;
 }
 
 - (BOOL)textFieldShouldReturn:(UITextField *)textField
