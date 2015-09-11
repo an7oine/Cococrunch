@@ -13,6 +13,7 @@
 		E40B76581B9F5E1C00C4C0A5 /* UIDevice+MachineProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = E40B76541B9F5E1C00C4C0A5 /* UIDevice+MachineProperties.m */; };
 		E40B765D1B9F5E2700C4C0A5 /* NSArray+Subarrays.m in Sources */ = {isa = PBXBuildFile; fileRef = E40B765A1B9F5E2700C4C0A5 /* NSArray+Subarrays.m */; };
 		E40B765E1B9F5E2700C4C0A5 /* NSSet+RemoveObject.m in Sources */ = {isa = PBXBuildFile; fileRef = E40B765C1B9F5E2700C4C0A5 /* NSSet+RemoveObject.m */; };
+		E4560BC81BA1AA7B0084269D /* GestureTabsCrunchingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E4560BC71BA1AA7B0084269D /* GestureTabsCrunchingVC.m */; };
 		E486AB701B03286B00F0DC7D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E486AB6F1B03286B00F0DC7D /* Default-568h@2x.png */; };
 		E48C9A941B00F1B400DD4DA3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E48C9A931B00F1B400DD4DA3 /* main.m */; };
 		E48C9A971B00F1B400DD4DA3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E48C9A961B00F1B400DD4DA3 /* AppDelegate.m */; };
@@ -65,6 +66,8 @@
 		E40B765A1B9F5E2700C4C0A5 /* NSArray+Subarrays.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Subarrays.m"; sourceTree = "<group>"; };
 		E40B765B1B9F5E2700C4C0A5 /* NSSet+RemoveObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSSet+RemoveObject.h"; sourceTree = "<group>"; };
 		E40B765C1B9F5E2700C4C0A5 /* NSSet+RemoveObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSet+RemoveObject.m"; sourceTree = "<group>"; };
+		E4560BC61BA1AA7B0084269D /* GestureTabsCrunchingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GestureTabsCrunchingVC.h; sourceTree = "<group>"; };
+		E4560BC71BA1AA7B0084269D /* GestureTabsCrunchingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GestureTabsCrunchingVC.m; sourceTree = "<group>"; };
 		E486AB6F1B03286B00F0DC7D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
 		E48C9A8E1B00F1B400DD4DA3 /* Cococrunch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cococrunch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E48C9A921B00F1B400DD4DA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -175,6 +178,8 @@
 				E48C9A961B00F1B400DD4DA3 /* AppDelegate.m */,
 				E48C9A9B1B00F1B400DD4DA3 /* PopoverCrunchingVC.h */,
 				E48C9A9C1B00F1B400DD4DA3 /* PopoverCrunchingVC.m */,
+				E4560BC61BA1AA7B0084269D /* GestureTabsCrunchingVC.h */,
+				E4560BC71BA1AA7B0084269D /* GestureTabsCrunchingVC.m */,
 				E48C9A9E1B00F1B400DD4DA3 /* Main.storyboard */,
 				E486AB6F1B03286B00F0DC7D /* Default-568h@2x.png */,
 				E48C9A921B00F1B400DD4DA3 /* Info.plist */,
@@ -389,6 +394,7 @@
 				E48C9B161B00F1E300DD4DA3 /* DispatchActionSheet.m in Sources */,
 				E48C9B0F1B00F1E300DD4DA3 /* NSDictionary+ValueArray.m in Sources */,
 				E40B765D1B9F5E2700C4C0A5 /* NSArray+Subarrays.m in Sources */,
+				E4560BC81BA1AA7B0084269D /* GestureTabsCrunchingVC.m in Sources */,
 				E40B76561B9F5E1C00C4C0A5 /* GestureDrivenTabController.m in Sources */,
 				E48C9B091B00F1E300DD4DA3 /* NSArray+FilterByBlock.m in Sources */,
 				E40B76551B9F5E1C00C4C0A5 /* DispatchAlertView.m in Sources */,
